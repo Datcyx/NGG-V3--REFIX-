@@ -1762,7 +1762,86 @@ CMD:removepvehicle(playerid, params[])
 	}
 	return 1;
 }
+CMD:sadmindd(playerid, params[])  {
 
+
+		new
+			iAdminValue,
+			iTargetID;
+
+		if(sscanf(params, "ui", iTargetID, iAdminValue)) {
+			SendClientMessageEx(playerid, COLOR_GREY, "USAGE: /makeadmin [player] [level]");
+		}
+		else if(IsPlayerConnected(iTargetID)) {
+			if(PlayerInfo[iTargetID][pHelper] >= 1) {
+				SendClientMessageEx(playerid, COLOR_GRAD1, "You cannot make Advisors admins!");
+			}
+			if(PlayerInfo[iTargetID][pAdmin] == iAdminValue) return SendClientMessageEx(playerid, COLOR_GREY, "This person already has this administrator level.");
+			else {
+
+				if(PlayerInfo[iTargetID][pStaffBanned] >= 1) return SendClientMessage(playerid, COLOR_WHITE, "That player is currently staff banned.");
+
+				/*new
+					szMessage[47 + (MAX_PLAYER_NAME * 2)];*/
+
+                PriorityReport[iTargetID] = TextDrawCreate(261.000000, 373.000000, "New Report");
+				TextDrawBackgroundColor(PriorityReport[iTargetID], 255);
+				TextDrawFont(PriorityReport[iTargetID], 2);
+				TextDrawLetterSize(PriorityReport[iTargetID], 0.460000, 1.800000);
+				TextDrawColor(PriorityReport[iTargetID], -65281);
+				TextDrawSetOutline(PriorityReport[iTargetID], 0);
+				TextDrawSetProportional(PriorityReport[iTargetID], 1);
+				TextDrawSetShadow(PriorityReport[iTargetID], 1);
+
+
+				new szRank[128];
+				switch(iAdminValue) {
+					case 0: format(szRank, sizeof(szRank), "AdmCmd: %s has removed %s's administrator rank.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+					case 1: format(szRank, sizeof(szRank), "AdmCmd: %s has made %s a Server Moderator.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+					case 2: format(szRank, sizeof(szRank), "AdmCmd: %s has made %s a Junior Administrator.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+					case 3: format(szRank, sizeof(szRank), "AdmCmd: %s has made %s a General Administrator.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+					case 4: format(szRank, sizeof(szRank), "AdmCmd: %s has made %s a Senior Administrator.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+					case 1337: format(szRank, sizeof(szRank), "AdmCmd: %s has made %s a Head Administrator.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+					case 99999: format(szRank, sizeof(szRank), "AdmCmd: %s has made %s an Executive Administrator.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+					default: format(szRank, sizeof(szRank), "AdmCmd: %s has made %s an undefined level administrator.", GetPlayerNameEx(playerid), GetPlayerNameEx(iTargetID));
+				}
+
+				PlayerInfo[iTargetID][pAdmin] = iAdminValue;
+				ABroadCast(COLOR_LIGHTRED, szRank, 2);
+				Log("logs/admin.log", szRank);
+
+				switch(iAdminValue) {
+					case 0: format(szRank, sizeof(szRank), "Your administrator rank has been removed by %s.", GetPlayerNameEx(playerid));
+					case 1: format(szRank, sizeof(szRank), "You have been made a Server Moderator by %s.", GetPlayerNameEx(playerid));
+					case 2: format(szRank, sizeof(szRank), "You have been made a Junior Administrator by %s.", GetPlayerNameEx(playerid));
+					case 3: format(szRank, sizeof(szRank), "You have been made a General Administrator by %s.", GetPlayerNameEx(playerid));
+					case 4: format(szRank, sizeof(szRank), "You have been made a Senior Administrator by %s.", GetPlayerNameEx(playerid));
+					case 1337: format(szRank, sizeof(szRank), "You have been made a Head Administrator by %s.", GetPlayerNameEx(playerid));
+					case 99999: format(szRank, sizeof(szRank), "You have been made an Executive Administrator by %s.", GetPlayerNameEx(playerid));
+					default: format(szRank, sizeof(szRank), "You have been made an undefined level administrator by %s.", GetPlayerNameEx(playerid));
+				}
+				SendClientMessageEx(iTargetID, COLOR_LIGHTBLUE, szRank);
+
+				switch(iAdminValue) {
+					case 0: format(szRank, sizeof(szRank), "You have removed %s's administrator rank.", GetPlayerNameEx(iTargetID));
+					case 1: format(szRank, sizeof(szRank), "You have made %s a Server Moderator.", GetPlayerNameEx(iTargetID));
+					case 2: format(szRank, sizeof(szRank), "You have made %s a Junior Administrator.", GetPlayerNameEx(iTargetID));
+					case 3: format(szRank, sizeof(szRank), "You have made %s a General Administrator.", GetPlayerNameEx(iTargetID));
+					case 4: format(szRank, sizeof(szRank), "You have made %s a Senior Administrator.", GetPlayerNameEx(iTargetID));
+					case 1337: format(szRank, sizeof(szRank), "You have made %s a Head Administrator.", GetPlayerNameEx(iTargetID));
+					case 99999: format(szRank, sizeof(szRank), "You have made %s an Executive Administrator.", GetPlayerNameEx(iTargetID));
+					default: format(szRank, sizeof(szRank), "You have made %s an undefined level administrator.", GetPlayerNameEx(iTargetID));
+				}
+				SendClientMessageEx(playerid, COLOR_LIGHTBLUE, szRank);
+
+				format(szMiscArray, sizeof(szMiscArray), "was made a %s (%d)", GetAdminRankName(iAdminValue), iAdminValue);
+				DBLog(playerid, iTargetID, "Admin", szMiscArray);
+
+			}
+		}
+		else SendClientMessageEx(playerid, COLOR_GRAD2, "Invalid player specified.");
+	return 1;
+}
 CMD:makeadmin(playerid, params[])  {
 
 	if(PlayerInfo[playerid][pAdmin] >= 1337 || PlayerInfo[playerid][pAP] >= 2 || PlayerInfo[playerid][pHR] >= 3) {
