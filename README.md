@@ -1,2 +1,6 @@
 # NGG
-New Generation Gaming Repository
+New Generation Gaming GAMEMODE V3 <br>
+0.3.7 VERSION <br>
+CURRENT BUG-------------------------<br>
+FURNITURE DONT LOAD IN GAME, BUT I HAVE FIX FOR THIS<br>
+GANGTAGS DONT LOAD ALSO BUT I HAVE FIXES FOR THIS SOON<br>
