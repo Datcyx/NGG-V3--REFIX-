@@ -186,20 +186,20 @@ public OnLoadPayPhones()
 	if(!iRows) return print("[Pay Phones] No pay phones were found in the database.");
 	new iRow, value, Float:fValue;
 
-	while(iRow < iRows) {
+ 	for(iRow = 0; iRow < iRows; ++iRow) {
+
 
 		cache_get_value_name_int(iRow, "number", arrPayPhoneData[iRow][pp_iNumber]);
 		arrPayPhoneData[iRow][pp_iCallerID] = INVALID_PLAYER_ID;
 
-		ProcessPayPhone(iRow,
-			cache_get_value_name_float(iRow, "posx", fValue),
-			cache_get_value_name_float(iRow, "posy", fValue),
-			cache_get_value_name_float(iRow, "posz", fValue),
-			cache_get_value_name_float(iRow, "rotz", fValue),
-			cache_get_value_name_int(iRow, "vw", value),
-			cache_get_value_name_int(iRow, "int", value));
-	    
-		iRow++;
+		cache_get_value_name_float(iRow, "posx",arrPayphone[iRow][ppx]);
+			cache_get_value_name_float(iRow,"posy",arrPayphone[iRow][ppy]);
+			cache_get_value_name_float(iRow,"posz",arrPayphone[iRow][ppz]);
+			cache_get_value_name_float(iRow,"rotz",arrPayphone[iRow][pprotz]);
+			cache_get_value_name_int(iRow,"vw",arrPayphone[iRow][ppvw]);
+			cache_get_value_name_int(iRow,"int",arrPayphone[iRow][ppint]);
+			
+	    	ProcessPayPhone(iRow,arrPayphone[iRow][ppx],arrPayphone[iRow][ppy],arrPayphone[iRow][ppz],arrPayphone[iRow][pprotz],arrPayphone[iRow][ppvw],arrPayphone[iRow][ppint]);
 	}
 	return printf("[MySQL] Loaded %i pay phones from database.", iRows);
 }

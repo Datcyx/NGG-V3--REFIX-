@@ -108,7 +108,16 @@ enum eFurniture {
 	cols3,
 	cols4
 }
-new arrFurnitures[1000][eFurniture];
+enum epp{
+ Float:ppx,
+ Float:ppy,
+ Float:ppz,
+ Float:pprotz,
+ ppvw,
+ ppint
+}
+new arrFurnitures[100000][eFurniture];
+new arrPayphone[1000000][epp];
 enum furnitureEnum
 {
 	fCategory[24],
