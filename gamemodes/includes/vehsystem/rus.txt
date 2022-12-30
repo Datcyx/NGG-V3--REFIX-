@@ -1,0 +1,31 @@
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(4) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "mysql_tquery"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(18) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "cache_get_row_count"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(20) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GV_QUERY_LOAD"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(22) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "mysql_format"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(22) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(22) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(22) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "INVALID_VEHICLE_ID"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(23) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(23) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "mysql_tquery"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(24) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_DYNAMIC_VEHICLES"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(25) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "cache_get_value_name_int"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(26) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(26) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_DYNAMIC_VEHICLES"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(27) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "mysql_format"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(27) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(27) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(27) : ïðåäóïðåæäåíèå 202: êîëè÷åñòâî àðãóìåíòîâ íå ñîâïàäàåò ñ îáúÿâëåíèåì
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(28) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "mysql_tquery"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(29) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "printf"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(31) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "cache_get_value_name_int"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(31) : ïðåäóïðåæäåíèå 215: âûðàæåíèå íå èìååò ýôôåêòà
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(31) : îøèáêà 001: îæèäàëñÿ òîêåí ";", íî íàéäåí "]"
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(31) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
+C:\Users\HomePC2\Downloads\New folder (12)\gamemodes\includes\vehsystem\groupvehs.pwn(31) : ôàòàëüíàÿ îøèáêà 107: ñëèøêîì ìíîãî îøèáîê íà îäíîé ñòðîêå
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:16.

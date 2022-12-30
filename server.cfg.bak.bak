@@ -1,0 +1,24 @@
+echo Executing Server Config...
+lanmode 1
+rcon_password dcnewo2j
+maxplayers 1000
+port 7777
+hostname StrangeTown Roleplay
+gamemode0 NGRP
+filterscripts yom_buttons mapping/Server_new mapping/PlayerInteriors mapping/Gang mapping/FurnitureSystem ls_apartments1 ctuningv22
+plugins crashdetect.so gvar.so mysql.so sscanf.so streamer.so Whirlpool.so discord-connector.so socket.so
+announce 1
+chatlogging 1
+weburl discord.io/
+onfoot_rate 40
+incar_rate 40
+weapon_rate 40
+stream_distance 300.0
+stream_rate 1000
+maxnpc 0
+logtimeformat [%H:%M:%S]
+language English/Tagalog
+discord_bot_token MTA0OTk3Mzc4NTM2Njg4ODQ0OQ.GuLP8C.EQw9V5GGDdhPy_1Zg5MiOBMvFDQVWvDDiC2AIo
+
+
+query 1

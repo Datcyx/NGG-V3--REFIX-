@@ -1,0 +1,26 @@
+new ChrisFire = CreateDynamicObject(18691, 2066.6936, -255.3787, 14.4637, 0.0000, 0.0000, 256.0655);
+SetDynamicObjectMaterialText(ChrisFire, 0, "Example", 0, "Times New Roman", 0, 0, -14053633, 0, 1);
+
+new ChrisBaseLight1 = CreateDynamicObject(3877, 1881.9232, -284.5711, 39.9575, 0.0000, 0.0000, -89.4589);
+SetDynamicObjectMaterialText(ChrisBaseLight1, 0, "Example", 0, "Times New Roman", 0, 0, -14053633, 0, 1);
+
+new DMVArrow0 = CreateDynamicObject(19475, 854.4102, -558.8122, 18.4241, 0.0000, 0.0000, 179.6572);
+SetDynamicObjectMaterialText(DMVArrow0, 0, "3", 0, "Wingdings 3", 0, 0, -16776961, -16776961, 1);
+
+new DilliDMVArrow1 = CreateDynamicObject(19475, 837.2747, -582.3448, 17.5159, 0.0000, 0.0000, -89.9958);
+SetDynamicObjectMaterialText(DilliDMVArrow1, 0, "Example", 0, "Times New Roman", 0, 0, -14053633, 0, 1);
+
+new DilliDMVArrow2 = CreateDynamicObject(19475, 826.0994, -549.9324, 17.5159, 0.0000, 0.0000, 90.8871);
+SetDynamicObjectMaterialText(DilliDMVArrow2, 0, "3", 60, "Wingdings 3", 0, 1, -14053633, -16777216, 1);
+
+new DilliDMVArrow3 = CreateDynamicObject(19475, 676.3300, -512.2365, 17.5259, 0.0000, 0.0000, 89.9441);
+SetDynamicObjectMaterialText(DilliDMVArrow3, 0, "Example", 60, "Times New Roman", 0, 1, -14053633, -16776961, 1);
+
+new DilliDMVArrow4 = CreateDynamicObject(19475, 687.0512, -547.8269, 17.5259, 0.0000, 0.0000, -89.6158);
+SetDynamicObjectMaterialText(DilliDMVArrow4, 0, "Example", 60, "Times New Roman", 0, 1, -14053633, -16776961, 1);
+
+new DilliDMVArrow5 = CreateDynamicObject(19475, 663.1939, -667.8123, 17.5365, 0.0000, 0.0000, 179.9353);
+SetDynamicObjectMaterialText(DilliDMVArrow5, 0, "Example", 60, "Times New Roman", 0, 1, -14053633, -16776961, 1);
+
+new DMVText = CreateDynamicObject(19480, 854.5275, -575.8228, 19.0440, 0.0000, 0.0000, 90.0179);
+SetDynamicObjectMaterialText(DMVText, 0, "DMV", 80, "Myriad Pro", 0, 1, -16777216, 0, 1);

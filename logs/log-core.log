@@ -1,0 +1,125 @@
+[12:51:50] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:11] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:18] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:20] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:21] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:22] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:37] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:38] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:39] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:52:41] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:53:21] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:53:23] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:53:24] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[12:57:51] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[13:02:36] [INFO] received Windows console close event; shutting log-core down
+[13:02:48] [INFO] received Windows console close event; shutting log-core down
+[13:02:48] [INFO] received Windows console close event; shutting log-core down
+[13:06:48] [INFO] received Windows console close event; shutting log-core down
+[13:06:48] [INFO] received Windows console close event; shutting log-core down
+[13:06:48] [INFO] received Windows console close event; shutting log-core down
+[13:07:17] [INFO] received Windows console close event; shutting log-core down
+[13:07:43] [INFO] received Windows console close event; shutting log-core down
+[13:09:01] [INFO] received Windows console close event; shutting log-core down
+[13:09:40] [INFO] received Windows console close event; shutting log-core down
+[13:11:19] [INFO] received Windows console close event; shutting log-core down
+[13:13:10] [INFO] received Windows console close event; shutting log-core down
+[13:15:31] [INFO] received Windows console close event; shutting log-core down
+[13:15:52] [INFO] received Windows console close event; shutting log-core down
+[13:16:30] [INFO] received Windows console close event; shutting log-core down
+[13:17:53] [INFO] received Windows console close event; shutting log-core down
+[13:18:21] [INFO] received Windows console close event; shutting log-core down
+[13:21:40] [INFO] received Windows console close event; shutting log-core down
+[13:23:33] [INFO] received Windows console close event; shutting log-core down
+[13:26:17] [INFO] received Windows console close event; shutting log-core down
+[13:26:28] [INFO] received Windows console close event; shutting log-core down
+[13:33:45] [INFO] received Windows console close event; shutting log-core down
+[13:34:23] [INFO] received Windows console close event; shutting log-core down
+[13:35:37] [INFO] received Windows console close event; shutting log-core down
+[13:37:21] [INFO] received Windows console close event; shutting log-core down
+[13:38:10] [INFO] received Windows console close event; shutting log-core down
+[13:40:46] [INFO] received Windows console close event; shutting log-core down
+[13:41:33] [INFO] received Windows console close event; shutting log-core down
+[13:45:35] [INFO] received Windows console close event; shutting log-core down
+[13:55:48] [INFO] received Windows console close event; shutting log-core down
+[13:56:45] [INFO] received Windows console close event; shutting log-core down
+[13:56:45] [INFO] received Windows console close event; shutting log-core down
+[13:56:45] [INFO] received Windows console close event; shutting log-core down
+[13:56:45] [INFO] received Windows console close event; shutting log-core down
+[14:02:30] [INFO] received Windows console close event; shutting log-core down
+[14:06:16] [INFO] received Windows console close event; shutting log-core down
+[14:08:02] [INFO] received Windows console close event; shutting log-core down
+[14:12:15] [INFO] received Windows console close event; shutting log-core down
+[14:13:14] [INFO] received Windows console close event; shutting log-core down
+[14:16:10] [INFO] received Windows console close event; shutting log-core down
+[14:16:10] [INFO] received Windows console close event; shutting log-core down
+[14:16:48] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[14:23:59] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[14:24:01] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[14:24:02] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[14:24:02] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[14:24:03] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[14:24:05] [ERROR] exception 0XC0000005 (ACCESS_VIOLATION) from Vectored Exception Handler catched; shutting log-core down
+[14:31:47] [INFO] received Windows console close event; shutting log-core down
+[14:31:47] [INFO] received Windows console close event; shutting log-core down
+[14:34:37] [INFO] received Windows console close event; shutting log-core down
+[14:38:15] [INFO] received Windows console close event; shutting log-core down
+[14:42:15] [INFO] received Windows console close event; shutting log-core down
+[14:42:52] [INFO] received Windows console close event; shutting log-core down
+[14:43:06] [INFO] received Windows console close event; shutting log-core down
+[14:43:21] [INFO] received Windows console close event; shutting log-core down
+[14:46:42] [INFO] received Windows console close event; shutting log-core down
+[14:47:58] [INFO] received Windows console close event; shutting log-core down
+[14:48:53] [INFO] received Windows console close event; shutting log-core down
+[14:58:09] [INFO] received Windows console close event; shutting log-core down
+[14:58:14] [INFO] received Windows console close event; shutting log-core down
+[14:59:07] [INFO] received Windows console close event; shutting log-core down
+[15:01:56] [INFO] received Windows console close event; shutting log-core down
+[15:02:47] [INFO] received Windows console close event; shutting log-core down
+[15:05:49] [INFO] received Windows console close event; shutting log-core down
+[15:07:36] [INFO] received Windows console close event; shutting log-core down
+[15:08:10] [INFO] received Windows console close event; shutting log-core down
+[15:18:29] [INFO] received Windows console close event; shutting log-core down
+[15:18:29] [INFO] received Windows console close event; shutting log-core down
+[15:27:22] [INFO] received Windows console close event; shutting log-core down
+[15:28:26] [INFO] received Windows console close event; shutting log-core down
+[15:29:43] [INFO] received Windows console close event; shutting log-core down
+[15:31:17] [INFO] received Windows console close event; shutting log-core down
+[15:36:54] [INFO] received Windows console close event; shutting log-core down
+[16:22:44] [INFO] received Windows console close event; shutting log-core down
+[16:35:10] [INFO] received Windows console close event; shutting log-core down
+[16:37:02] [INFO] received Windows console close event; shutting log-core down
+[16:41:20] [INFO] received Windows console close event; shutting log-core down
+[17:05:17] [INFO] received Windows console close event; shutting log-core down
+[17:11:49] [INFO] received Windows console close event; shutting log-core down
+[17:12:57] [INFO] received Windows console close event; shutting log-core down
+[17:25:08] [INFO] received Windows console close event; shutting log-core down
+[17:31:16] [INFO] received Windows console close event; shutting log-core down
+[18:12:26] [INFO] received Windows console close event; shutting log-core down
+[18:12:26] [INFO] received Windows console close event; shutting log-core down
+[18:19:08] [INFO] received Windows console close event; shutting log-core down
+[18:36:43] [INFO] received Windows console close event; shutting log-core down
+[18:38:23] [INFO] received Windows console close event; shutting log-core down
+[18:40:01] [INFO] received Windows console close event; shutting log-core down
+[18:46:41] [INFO] received Windows console close event; shutting log-core down
+[18:50:39] [INFO] received Windows console close event; shutting log-core down
+[18:50:57] [INFO] received Windows console close event; shutting log-core down
+[19:02:38] [INFO] received Windows console close event; shutting log-core down
+[19:02:44] [INFO] received Windows console close event; shutting log-core down
+[19:02:44] [INFO] received Windows console close event; shutting log-core down
+[19:13:18] [INFO] received Windows console close event; shutting log-core down
+[19:17:01] [INFO] received Windows console close event; shutting log-core down
+[19:20:45] [INFO] received Windows console close event; shutting log-core down
+[19:21:06] [INFO] received Windows console close event; shutting log-core down
+[19:21:06] [INFO] received Windows console close event; shutting log-core down
+[19:31:20] [INFO] received Windows console close event; shutting log-core down
+[19:37:35] [INFO] received Windows console close event; shutting log-core down
+[19:38:39] [INFO] received Windows console close event; shutting log-core down
+[19:38:53] [INFO] received Windows console close event; shutting log-core down
+[19:44:45] [INFO] received Windows console close event; shutting log-core down
+[19:48:19] [INFO] received Windows console close event; shutting log-core down
+[20:07:29] [INFO] received Windows console close event; shutting log-core down
+[20:09:38] [INFO] received Windows console close event; shutting log-core down
+[20:09:54] [INFO] received Windows console close event; shutting log-core down
+[20:10:05] [INFO] received Windows console close event; shutting log-core down
+[20:24:07] [INFO] received Windows console close event; shutting log-core down

@@ -1,0 +1,454 @@
+[12:51:46] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:09] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:17] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:19] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:21] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:22] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:36] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:38] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:39] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:52:40] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:53:21] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:53:22] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:53:24] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:57:51] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[12:58:15] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:00:39] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:02:23] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:03:21] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:05:30] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:05:31] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:07:05] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:07:33] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:08:49] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:09:25] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:12:57] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:14:25] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:15:46] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:16:11] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:17:18] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:18:08] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:21:31] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:23:25] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:24:20] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:25:25] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:25:38] [DEBUG] *()
+[13:25:42] [DEBUG] CCallback::Create(amx=0x593600, name='DCC_OnChannelMessage')
+[13:25:42] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:25:42] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:25:42] [DEBUG] CNetwork::Initialize
+[13:25:42] [DEBUG] CNetwork::HttpConnect
+[13:25:43] [DEBUG] CNetwork::HttpGet
+[13:25:43] [DEBUG] CNetwork::HttpSendRequest
+[13:25:43] [DEBUG] CNetwork::HttpPrepareRequest
+[13:25:43] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:25:43] [DEBUG] CNetwork::HttpWriteRequest
+[13:25:43] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:28:13] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:28:18] [DEBUG] *()
+[13:28:19] [DEBUG] CCallback::Create(amx=0x593600, name='DCC_OnChannelMessage')
+[13:28:19] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:28:19] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:28:19] [DEBUG] CNetwork::Initialize
+[13:28:19] [DEBUG] CNetwork::HttpConnect
+[13:28:19] [DEBUG] CNetwork::HttpGet
+[13:28:19] [DEBUG] CNetwork::HttpSendRequest
+[13:28:19] [DEBUG] CNetwork::HttpPrepareRequest
+[13:28:19] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:28:19] [DEBUG] CNetwork::HttpWriteRequest
+[13:28:20] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:33:48] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:33:53] [DEBUG] *()
+[13:33:54] [DEBUG] CCallback::Create(amx=0x2a3600, name='DCC_OnChannelMessage')
+[13:33:54] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:33:54] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:33:54] [DEBUG] CNetwork::Initialize
+[13:33:54] [DEBUG] CNetwork::HttpConnect
+[13:33:54] [DEBUG] CNetwork::HttpGet
+[13:33:54] [DEBUG] CNetwork::HttpSendRequest
+[13:33:54] [DEBUG] CNetwork::HttpPrepareRequest
+[13:33:54] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:33:54] [DEBUG] CNetwork::HttpWriteRequest
+[13:33:54] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:34:38] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:34:43] [DEBUG] *()
+[13:34:44] [DEBUG] CCallback::Create(amx=0x1e23600, name='DCC_OnChannelMessage')
+[13:34:44] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:34:44] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:34:44] [DEBUG] CNetwork::Initialize
+[13:34:44] [DEBUG] CNetwork::HttpConnect
+[13:34:44] [DEBUG] CNetwork::HttpGet
+[13:34:44] [DEBUG] CNetwork::HttpSendRequest
+[13:34:44] [DEBUG] CNetwork::HttpPrepareRequest
+[13:34:44] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:34:44] [DEBUG] CNetwork::HttpWriteRequest
+[13:34:45] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:37:00] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:37:04] [DEBUG] *()
+[13:37:05] [DEBUG] CCallback::Create(amx=0x593600, name='DCC_OnChannelMessage')
+[13:37:05] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:37:05] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:37:05] [DEBUG] CNetwork::Initialize
+[13:37:05] [DEBUG] CNetwork::HttpConnect
+[13:37:05] [DEBUG] CNetwork::HttpGet
+[13:37:05] [DEBUG] CNetwork::HttpSendRequest
+[13:37:05] [DEBUG] CNetwork::HttpPrepareRequest
+[13:37:05] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:37:05] [DEBUG] CNetwork::HttpWriteRequest
+[13:37:06] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:37:51] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:37:55] [DEBUG] *()
+[13:37:56] [DEBUG] CCallback::Create(amx=0x1eaff68, name='DCC_OnChannelMessage')
+[13:37:56] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:37:56] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:37:56] [DEBUG] CNetwork::Initialize
+[13:37:56] [DEBUG] CNetwork::HttpConnect
+[13:37:57] [DEBUG] CNetwork::HttpGet
+[13:37:57] [DEBUG] CNetwork::HttpSendRequest
+[13:37:57] [DEBUG] CNetwork::HttpPrepareRequest
+[13:37:57] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:37:57] [DEBUG] CNetwork::HttpWriteRequest
+[13:37:57] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:39:52] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:39:57] [DEBUG] *()
+[13:39:58] [DEBUG] CCallback::Create(amx=0x61ff68, name='DCC_OnChannelMessage')
+[13:39:58] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:39:58] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:39:58] [DEBUG] CNetwork::Initialize
+[13:39:58] [DEBUG] CNetwork::HttpConnect
+[13:39:58] [DEBUG] CNetwork::HttpGet
+[13:39:58] [DEBUG] CNetwork::HttpSendRequest
+[13:39:58] [DEBUG] CNetwork::HttpPrepareRequest
+[13:39:58] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:39:58] [DEBUG] CNetwork::HttpWriteRequest
+[13:39:59] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:41:03] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:41:14] [DEBUG] *()
+[13:41:15] [DEBUG] CCallback::Create(amx=0x21eff68, name='DCC_OnChannelMessage')
+[13:41:15] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:41:15] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:41:15] [DEBUG] CNetwork::Initialize
+[13:41:15] [DEBUG] CNetwork::HttpConnect
+[13:41:16] [DEBUG] CNetwork::HttpGet
+[13:41:16] [DEBUG] CNetwork::HttpSendRequest
+[13:41:16] [DEBUG] CNetwork::HttpPrepareRequest
+[13:41:16] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:41:16] [DEBUG] CNetwork::HttpWriteRequest
+[13:41:16] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:42:18] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:42:26] [DEBUG] *()
+[13:42:27] [DEBUG] CCallback::Create(amx=0x1f1ff68, name='DCC_OnChannelMessage')
+[13:42:27] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:42:27] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:42:27] [DEBUG] CNetwork::Initialize
+[13:42:27] [DEBUG] CNetwork::HttpConnect
+[13:42:28] [DEBUG] CNetwork::HttpGet
+[13:42:28] [DEBUG] CNetwork::HttpSendRequest
+[13:42:28] [DEBUG] CNetwork::HttpPrepareRequest
+[13:42:28] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:42:28] [DEBUG] CNetwork::HttpWriteRequest
+[13:42:28] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:44:28] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:44:46] [DEBUG] *()
+[13:44:48] [DEBUG] CCallback::Create(amx=0x1e6ff68, name='DCC_OnChannelMessage')
+[13:44:48] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:44:48] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:44:48] [DEBUG] CNetwork::Initialize
+[13:44:48] [DEBUG] CNetwork::HttpConnect
+[13:44:48] [DEBUG] CNetwork::HttpGet
+[13:44:48] [DEBUG] CNetwork::HttpSendRequest
+[13:44:48] [DEBUG] CNetwork::HttpPrepareRequest
+[13:44:48] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:44:48] [DEBUG] CNetwork::HttpWriteRequest
+[13:44:48] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:54:05] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:54:17] [DEBUG] *()
+[13:54:18] [DEBUG] CCallback::Create(amx=0x1e6ff68, name='DCC_OnChannelMessage')
+[13:54:18] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:54:18] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:54:18] [DEBUG] CNetwork::Initialize
+[13:54:18] [DEBUG] CNetwork::HttpConnect
+[13:54:18] [DEBUG] CNetwork::HttpGet
+[13:54:18] [DEBUG] CNetwork::HttpSendRequest
+[13:54:18] [DEBUG] CNetwork::HttpPrepareRequest
+[13:54:18] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:54:18] [DEBUG] CNetwork::HttpWriteRequest
+[13:54:19] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:55:09] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:55:21] [DEBUG] *()
+[13:55:22] [DEBUG] CCallback::Create(amx=0x1eaff68, name='DCC_OnChannelMessage')
+[13:55:22] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:55:22] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:55:22] [DEBUG] CNetwork::Initialize
+[13:55:22] [DEBUG] CNetwork::HttpConnect
+[13:55:22] [DEBUG] CNetwork::HttpGet
+[13:55:22] [DEBUG] CNetwork::HttpSendRequest
+[13:55:22] [DEBUG] CNetwork::HttpPrepareRequest
+[13:55:22] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:55:22] [DEBUG] CNetwork::HttpWriteRequest
+[13:55:23] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:55:38] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:55:46] [DEBUG] *()
+[13:55:48] [DEBUG] CCallback::Create(amx=0x7cff68, name='DCC_OnChannelMessage')
+[13:55:48] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:55:48] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:55:48] [DEBUG] CNetwork::Initialize
+[13:55:48] [DEBUG] CNetwork::HttpConnect
+[13:55:48] [DEBUG] CNetwork::HttpGet
+[13:55:48] [DEBUG] CNetwork::HttpSendRequest
+[13:55:48] [DEBUG] CNetwork::HttpPrepareRequest
+[13:55:48] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:55:48] [DEBUG] CNetwork::HttpWriteRequest
+[13:56:01] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:56:13] [DEBUG] *()
+[13:56:14] [DEBUG] CCallback::Create(amx=0x1feff68, name='DCC_OnChannelMessage')
+[13:56:14] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:56:14] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:56:14] [DEBUG] CNetwork::Initialize
+[13:56:14] [DEBUG] CNetwork::HttpConnect
+[13:56:14] [DEBUG] CNetwork::HttpGet
+[13:56:14] [DEBUG] CNetwork::HttpSendRequest
+[13:56:14] [DEBUG] CNetwork::HttpPrepareRequest
+[13:56:14] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:56:14] [DEBUG] CNetwork::HttpWriteRequest
+[13:56:14] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[13:57:14] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[13:57:19] [DEBUG] *()
+[13:57:20] [DEBUG] CCallback::Create(amx=0x1faff68, name='DCC_OnChannelMessage')
+[13:57:20] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[13:57:20] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[13:57:20] [DEBUG] CNetwork::Initialize
+[13:57:20] [DEBUG] CNetwork::HttpConnect
+[13:57:20] [DEBUG] CNetwork::HttpGet
+[13:57:20] [DEBUG] CNetwork::HttpSendRequest
+[13:57:20] [DEBUG] CNetwork::HttpPrepareRequest
+[13:57:20] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[13:57:20] [DEBUG] CNetwork::HttpWriteRequest
+[13:57:21] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:03:10] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:03:19] [DEBUG] *()
+[14:03:20] [DEBUG] CCallback::Create(amx=0x1f5ff68, name='DCC_OnChannelMessage')
+[14:03:20] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:03:20] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:03:20] [DEBUG] CNetwork::Initialize
+[14:03:20] [DEBUG] CNetwork::HttpConnect
+[14:03:21] [DEBUG] CNetwork::HttpGet
+[14:03:21] [DEBUG] CNetwork::HttpSendRequest
+[14:03:21] [DEBUG] CNetwork::HttpPrepareRequest
+[14:03:21] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:03:21] [DEBUG] CNetwork::HttpWriteRequest
+[14:03:22] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:07:10] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:07:15] [DEBUG] *()
+[14:07:16] [DEBUG] CCallback::Create(amx=0x1e3ff68, name='DCC_OnChannelMessage')
+[14:07:16] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:07:16] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:07:16] [DEBUG] CNetwork::Initialize
+[14:07:16] [DEBUG] CNetwork::HttpConnect
+[14:07:17] [DEBUG] CNetwork::HttpGet
+[14:07:17] [DEBUG] CNetwork::HttpSendRequest
+[14:07:17] [DEBUG] CNetwork::HttpPrepareRequest
+[14:07:17] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:07:17] [DEBUG] CNetwork::HttpWriteRequest
+[14:07:17] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:08:59] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:09:04] [DEBUG] *()
+[14:09:05] [DEBUG] CCallback::Create(amx=0x231ff68, name='DCC_OnChannelMessage')
+[14:09:05] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:09:05] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:09:05] [DEBUG] CNetwork::Initialize
+[14:09:05] [DEBUG] CNetwork::HttpConnect
+[14:09:05] [DEBUG] CNetwork::HttpGet
+[14:09:05] [DEBUG] CNetwork::HttpSendRequest
+[14:09:05] [DEBUG] CNetwork::HttpPrepareRequest
+[14:09:05] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:09:05] [DEBUG] CNetwork::HttpWriteRequest
+[14:09:05] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:11:51] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:11:56] [DEBUG] *()
+[14:11:57] [DEBUG] CCallback::Create(amx=0x1f3ff68, name='DCC_OnChannelMessage')
+[14:11:57] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:11:57] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:11:57] [DEBUG] CNetwork::Initialize
+[14:11:57] [DEBUG] CNetwork::HttpConnect
+[14:11:57] [DEBUG] CNetwork::HttpGet
+[14:11:57] [DEBUG] CNetwork::HttpSendRequest
+[14:11:57] [DEBUG] CNetwork::HttpPrepareRequest
+[14:11:57] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:11:57] [DEBUG] CNetwork::HttpWriteRequest
+[14:11:57] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:13:03] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:13:08] [DEBUG] *()
+[14:13:09] [DEBUG] CCallback::Create(amx=0x21fff68, name='DCC_OnChannelMessage')
+[14:13:09] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:13:09] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:13:09] [DEBUG] CNetwork::Initialize
+[14:13:09] [DEBUG] CNetwork::HttpConnect
+[14:13:09] [DEBUG] CNetwork::HttpGet
+[14:13:09] [DEBUG] CNetwork::HttpSendRequest
+[14:13:09] [DEBUG] CNetwork::HttpPrepareRequest
+[14:13:09] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:13:09] [DEBUG] CNetwork::HttpWriteRequest
+[14:13:09] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:13:35] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:13:39] [DEBUG] *()
+[14:13:40] [DEBUG] CCallback::Create(amx=0x8dff68, name='DCC_OnChannelMessage')
+[14:13:40] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:13:40] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:13:40] [DEBUG] CNetwork::Initialize
+[14:13:40] [DEBUG] CNetwork::HttpConnect
+[14:13:41] [DEBUG] CNetwork::HttpGet
+[14:13:41] [DEBUG] CNetwork::HttpSendRequest
+[14:13:41] [DEBUG] CNetwork::HttpPrepareRequest
+[14:13:41] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:13:41] [DEBUG] CNetwork::HttpWriteRequest
+[14:13:41] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:16:47] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:23:58] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:24:00] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:24:01] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:24:02] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:24:03] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:24:04] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:25:14] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:25:22] [DEBUG] *()
+[14:25:23] [DEBUG] CCallback::Create(amx=0x35ff68, name='DCC_OnChannelMessage')
+[14:25:23] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:25:23] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:25:23] [DEBUG] CNetwork::Initialize
+[14:25:23] [DEBUG] CNetwork::HttpConnect
+[14:25:23] [DEBUG] CNetwork::HttpGet
+[14:25:23] [DEBUG] CNetwork::HttpSendRequest
+[14:25:23] [DEBUG] CNetwork::HttpPrepareRequest
+[14:25:23] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:25:23] [DEBUG] CNetwork::HttpWriteRequest
+[14:25:24] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:30:43] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:30:55] [DEBUG] *()
+[14:30:56] [DEBUG] CCallback::Create(amx=0x61ff68, name='DCC_OnChannelMessage')
+[14:30:56] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:30:56] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:30:56] [DEBUG] CNetwork::Initialize
+[14:30:56] [DEBUG] CNetwork::HttpConnect
+[14:30:56] [DEBUG] CNetwork::HttpGet
+[14:30:56] [DEBUG] CNetwork::HttpSendRequest
+[14:30:56] [DEBUG] CNetwork::HttpPrepareRequest
+[14:30:56] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:30:56] [DEBUG] CNetwork::HttpWriteRequest
+[14:30:57] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:34:34] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:38:02] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:38:07] [DEBUG] *()
+[14:38:08] [DEBUG] CCallback::Create(amx=0x1f5ff68, name='DCC_OnChannelMessage')
+[14:38:08] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:38:08] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:38:08] [DEBUG] CNetwork::Initialize
+[14:38:08] [DEBUG] CNetwork::HttpConnect
+[14:38:08] [DEBUG] CNetwork::HttpGet
+[14:38:08] [DEBUG] CNetwork::HttpSendRequest
+[14:38:08] [DEBUG] CNetwork::HttpPrepareRequest
+[14:38:08] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:38:08] [DEBUG] CNetwork::HttpWriteRequest
+[14:38:09] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:42:10] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:42:10] [DEBUG] *()
+[14:42:12] [DEBUG] CCallback::Create(amx=0x20f2be0, name='DCC_OnChannelMessage')
+[14:42:12] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:42:12] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:42:12] [DEBUG] CNetwork::Initialize
+[14:42:12] [DEBUG] CNetwork::HttpConnect
+[14:42:12] [DEBUG] CNetwork::HttpGet
+[14:42:12] [DEBUG] CNetwork::HttpSendRequest
+[14:42:12] [DEBUG] CNetwork::HttpPrepareRequest
+[14:42:12] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:42:12] [DEBUG] CNetwork::HttpWriteRequest
+[14:42:12] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:42:30] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:42:35] [DEBUG] *()
+[14:42:36] [DEBUG] CCallback::Create(amx=0x1cf2e28, name='DCC_OnChannelMessage')
+[14:42:36] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:42:36] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:42:36] [DEBUG] CNetwork::Initialize
+[14:42:36] [DEBUG] CNetwork::HttpConnect
+[14:42:36] [DEBUG] CNetwork::HttpGet
+[14:42:36] [DEBUG] CNetwork::HttpSendRequest
+[14:42:36] [DEBUG] CNetwork::HttpPrepareRequest
+[14:42:36] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:42:36] [DEBUG] CNetwork::HttpWriteRequest
+[14:42:37] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:42:54] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:42:58] [DEBUG] *()
+[14:42:59] [DEBUG] CCallback::Create(amx=0x722e70, name='DCC_OnChannelMessage')
+[14:42:59] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:42:59] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:42:59] [DEBUG] CNetwork::Initialize
+[14:42:59] [DEBUG] CNetwork::HttpConnect
+[14:43:00] [DEBUG] CNetwork::HttpGet
+[14:43:00] [DEBUG] CNetwork::HttpSendRequest
+[14:43:00] [DEBUG] CNetwork::HttpPrepareRequest
+[14:43:00] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:43:00] [DEBUG] CNetwork::HttpWriteRequest
+[14:43:00] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:43:08] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:43:23] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:43:27] [DEBUG] *()
+[14:43:28] [DEBUG] CCallback::Create(amx=0x1e32e70, name='DCC_OnChannelMessage')
+[14:43:28] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:43:28] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:43:28] [DEBUG] CNetwork::Initialize
+[14:43:28] [DEBUG] CNetwork::HttpConnect
+[14:43:29] [DEBUG] CNetwork::HttpGet
+[14:43:29] [DEBUG] CNetwork::HttpSendRequest
+[14:43:29] [DEBUG] CNetwork::HttpPrepareRequest
+[14:43:29] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:43:29] [DEBUG] CNetwork::HttpWriteRequest
+[14:43:29] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:47:48] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:47:53] [DEBUG] CCallback::Create(amx=0x1ed2e70, name='DCC_OnChannelMessage')
+[14:47:53] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:47:53] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:47:53] [DEBUG] CNetwork::Initialize
+[14:47:53] [DEBUG] CNetwork::HttpConnect
+[14:47:54] [DEBUG] CNetwork::HttpGet
+[14:47:54] [DEBUG] CNetwork::HttpSendRequest
+[14:47:54] [DEBUG] CNetwork::HttpPrepareRequest
+[14:47:54] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:47:54] [DEBUG] CNetwork::HttpWriteRequest
+[14:47:54] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[14:48:44] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[14:48:49] [DEBUG] CCallback::Create(amx=0x1db2e70, name='DCC_OnChannelMessage')
+[14:48:49] [DEBUG] CCallback::Create - callback index for 'DCC_OnChannelMessage': 259
+[14:48:49] [INFO] Callback 'DCC_OnChannelMessage' set up for delayed execution.
+[14:48:49] [DEBUG] CNetwork::Initialize
+[14:48:49] [DEBUG] CNetwork::HttpConnect
+[14:48:50] [DEBUG] CNetwork::HttpGet
+[14:48:50] [DEBUG] CNetwork::HttpSendRequest
+[14:48:50] [DEBUG] CNetwork::HttpPrepareRequest
+[14:48:50] [DEBUG] CNetwork::HttpSendRequest(/api/v5/gateway) (actual send)
+[14:48:50] [DEBUG] CNetwork::HttpWriteRequest
+[14:48:51] [ERROR] Can't retrieve Discord gateway URL: Bad Request (400)
+[12/30/22 14:58:29] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:32] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:33] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:35] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:36] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:38] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:39] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:41] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:42] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:44] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:45] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:46] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:47] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:49] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:50] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:52] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:53] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:55] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:56] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:58:58] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:59:00] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:59:01] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:59:03] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:59:05] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
+[12/30/22 14:59:07] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)

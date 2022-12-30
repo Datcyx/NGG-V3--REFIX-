@@ -1,0 +1,237 @@
+[18:49:15] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:49:15] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:49:15] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:49:15] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:49:15] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:49:16] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:49:16] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:49:16] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:07] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:07] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:07] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:07] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:07] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:07] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:07] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:07] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:13] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:13] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:13] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:13] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:13] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:13] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: NO)
+[18:50:13] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:50:13] [WARNING] CMySQLConnection::Disconnect - no connection available
+[18:52:55] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[18:52:55] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[18:52:55] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[18:52:55] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] cache_get_field_content_int - invalid datatype
+[18:52:55] [ERROR] CMySQLQuery::Execute[OnQueryFinished] - (error #1146) Table 'sampc.actors' doesn't exist
+[18:52:55] [ERROR] CMySQLQuery::Execute[Vendor_Load] - (error #1146) Table 'sampc.vendors' doesn't exist
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("login_date")
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("discordtag")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("code")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("cookies")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("facemask")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("fmtime")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vipvoucher")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher0")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher1")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher2")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher3")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:55:19] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher4")
+[18:55:19] [ERROR] cache_get_field_content_int - invalid datatype
+[18:57:37] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[18:57:37] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("discordtag")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("code")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("cookies")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("facemask")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("fmtime")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vipvoucher")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher0")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher1")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher2")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher3")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[18:59:45] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher4")
+[18:59:45] [ERROR] cache_get_field_content_int - invalid datatype
+[19:00:23] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[19:00:23] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[19:00:40] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[19:00:41] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[19:05:07] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[19:05:07] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[19:09:53] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:09:53] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:09:53] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:09:53] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:09:53] [ERROR] CMySQLQuery::Execute[OnQueryFinished] - (error #1146) Table 'sampc.actors' doesn't exist
+[19:09:53] [ERROR] CMySQLQuery::Execute[Vendor_Load] - (error #1146) Table 'sampc.vendors' doesn't exist
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:09:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("discordtag")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("code")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("cookies")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("facemask")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("fmtime")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vipvoucher")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher0")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher1")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher2")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher3")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:10:03] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher4")
+[19:10:03] [ERROR] cache_get_field_content_int - invalid datatype
+[19:15:26] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[19:15:26] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[19:18:54] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[19:18:54] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("discordtag")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("code")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("cookies")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("facemask")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("fmtime")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vipvoucher")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher0")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher1")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher2")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher3")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:16] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher4")
+[19:19:16] [ERROR] cache_get_field_content_int - invalid datatype
+[19:19:41] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[19:19:41] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[19:20:52] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:20:52] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:20:52] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:20:52] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:20:53] [ERROR] CMySQLQuery::Execute[OnQueryFinished] - (error #1146) Table 'sampc.actors' doesn't exist
+[19:20:53] [ERROR] CMySQLQuery::Execute[Vendor_Load] - (error #1146) Table 'sampc.vendors' doesn't exist
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:20:53] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:11] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:21:11] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:21:11] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:21:11] [ERROR] CMySQLConnection::Connect - (error #1049) Unknown database 'shoutcast'
+[19:21:11] [ERROR] CMySQLQuery::Execute[OnQueryFinished] - (error #1146) Table 'sampc.actors' doesn't exist
+[19:21:11] [ERROR] CMySQLQuery::Execute[Vendor_Load] - (error #1146) Table 'sampc.vendors' doesn't exist
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:12] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("discordtag")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("code")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("cookies")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("facemask")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("fmtime")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vipvoucher")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher0")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher1")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher2")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher3")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:21:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher4")
+[19:21:48] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:15] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'vipvoucher' in 'field list'
+[19:22:15] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'cookies' in 'field list'
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("discordtag")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("code")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("cookies")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("facemask")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("fmtime")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vipvoucher")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher0")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher1")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher2")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher3")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
+[19:22:38] [WARNING] CMySQLResult::GetRowDataByName - field not found ("Voucher4")
+[19:22:38] [ERROR] cache_get_field_content_int - invalid datatype
