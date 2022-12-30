@@ -86,7 +86,35 @@
 
 //#define AREA_DEBUG
 //#define TEXTLABEL_DEBUG
-
+enum eFurniture {
+	fhouseids,
+	slotids,
+	fModelss,
+	Float:Fposx,
+	Float:Fposy,
+	Float:Fposz,
+	Float:Fposxs,
+	Float:Fposys,
+	Float:Fposzs,
+	texts0,
+	texts1,
+	texts2,
+	texts3,
+	texts4,
+	cols0,
+	cols1,
+	cols2,
+	cols3,
+	cols4
+}
+new arrFurnitures[1000][eFurniture];
+enum furnitureEnum
+{
+	fCategory[24],
+    fName[32],
+    fModel,
+    fPrice
+};
 #undef  MAX_PLAYERS
 #define MAX_PLAYERS (500)
 #include <a_mysql>

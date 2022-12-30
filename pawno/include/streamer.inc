@@ -105,7 +105,7 @@
 
 // Include File Version
 
-public Streamer_IncludeFileVersion = 0x281001;
+public Streamer_IncludeFileVersion = 0x282001;
 
 #pragma unused Streamer_IncludeFileVersion
 
@@ -198,7 +198,7 @@ native Streamer_ToggleItemUpdate(playerid, type, toggle);
 native Streamer_IsToggleItemUpdate(playerid, type);
 native Streamer_GetLastUpdateTime(&Float:time);
 native Streamer_Update(playerid, type = -1);
-native Streamer_UpdateEx(playerid, Float:x, Float:y, Float:z, worldid = -1, interiorid = -1, type = -1);
+native Streamer_UpdateEx(playerid, Float:x, Float:y, Float:z, worldid = -1, interiorid = -1, type = -1, compensatedtime = -1);
 
 // Natives (Data Manipulation)
 
