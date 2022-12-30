@@ -2,6 +2,14 @@
 ./includes/admin/admin.pwn(1843) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/vehsystem/groupvehs.pwn(189) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/vehsystem/groupvehs.pwn(134) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "szMiscArrays14"
+./includes/group/gangtags.pwn(135) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/group/gangtags.pwn(136) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/group/gangtags.pwn(144) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/group/gangtags.pwn(132) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "fValue"
+./includes/group/gangtags.pwn(131) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "value"
+./includes/group/gangtags.pwn(130) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "szResult"
+./includes/group/gangtags.pwn(288) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/group/gangtags.pwn(293) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/core/payphones.pwn(196) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/core/payphones.pwn(187) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "fValue"
 ./includes/core/payphones.pwn(187) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "value"

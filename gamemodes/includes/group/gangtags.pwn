@@ -129,20 +129,19 @@ public GangTag_OnLoad()
 	new idx,
 		szResult[MAX_GANGTAGS_LEN],
 		value,
-		Float:fValue;
-	while(idx < iRows)
-	{
-		cache_get_value_name(idx, "text", szResult);
-		GangTag_AdmProcess(idx, cache_get_value_name_float(idx, "x", fValue),
-			cache_get_value_name_float(idx, "y", fValue),
-			cache_get_value_name_float(idx, "z", fValue),
-			cache_get_value_name_float(idx, "rx", fValue),
-			cache_get_value_name_float(idx, "ry", fValue),
-			cache_get_value_name_float(idx, "rz", fValue),
-			szResult,
-			cache_get_value_name_int(idx, "fontid", value),
-			cache_get_value_name_int(idx, "color", value));
-		idx++;
+		Float:fValue,Float:fx,Float:fy,Float:fz,Float:frx,Float:fry,Float:frz,frfont,frcolor,textgg[1024];
+	for(idx = 0; idx < iRows; ++idx) {
+		cache_get_value_name(idx, "text", textgg);
+	       cache_get_value_name_float(idx, "x", fx);
+			cache_get_value_name_float(idx, "y", fy);
+			cache_get_value_name_float(idx, "z", fz);
+			cache_get_value_name_float(idx, "rx", frx);
+			cache_get_value_name_float(idx, "ry", fry);
+			cache_get_value_name_float(idx, "rz", frz);
+			cache_get_value_name_int(idx, "fontid", frfont);
+			cache_get_value_name_int(idx, "color", frcolor);
+
+		GangTag_AdmProcess(idx,fx,fy,fz,frx,fry,frz,textgg,frfont,frcolor);
 	}
 	printf("[Gang Tags] Loaded %d gang tags.", idx);
 	return 1;
@@ -179,6 +178,7 @@ public GangTag_OnCreate(iPlayerID, i, Float:X, Float:Y, Float:Z)
 	SendClientMessage(iPlayerID, COLOR_GRAD1, "Something went wrong.");
 	return 1;
 }
+
 
 GangTag_AdmSave(iPlayerID, i)
 {
@@ -285,12 +285,10 @@ public OnGetGangTags(iPlayerID)
 			i,
 			szResult[MAX_GANGTAGS_LEN];
 
-		while(idx < iRows)
-		{
+  	for(idx = 0; idx < iRows; ++idx) {
 			cache_get_value_name(idx,  "text", szResult);
 			cache_get_value_name_int(idx, "gangid", i);
 			format(szMiscArray, sizeof(szMiscArray), "%s(%d) %s (%d)\t%s\n", szMiscArray, idx, arrGroupData[i][g_szGroupName], i, szResult);
-			idx++;
 		}
 		ShowPlayerDialogEx(iPlayerID, DIALOG_GANGTAGS_LIST, DIALOG_STYLE_TABLIST_HEADERS, "Gang Tags | List", szMiscArray, "Select", "");
 		return 1;
