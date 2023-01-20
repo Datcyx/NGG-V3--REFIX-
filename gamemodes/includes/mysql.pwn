@@ -723,7 +723,7 @@ public OnQueryFinish(resultid, extraid, handleid)
 					//for(new d; d != sizeof(Drugs); ++d) PlayerInfo[extraid][pDrugs][d] = cache_get_value_name_int(row, GetDrugName(d));
 					//for(new d; d != sizeof(szIngredients); ++d) PlayerInfo[extraid][p_iIngredient][d] = cache_get_value_name_int(row, DS_Ingredients_GetSQLName(d));
 
-					/*szMiscArray[0] = 0;	
+					/*szMiscArray[0] = 0;
 					for(new d; d != sizeof(Drugs); ++d)
 					{
 						format(szMiscArray, sizeof(szMiscArray), "Prison%s", GetDrugName(d));
@@ -921,7 +921,7 @@ public OnQueryFinish(resultid, extraid, handleid)
 						cache_get_value_name_float(i, "scalez", PlayerToyInfo[extraid][i][ptScaleZ]);
 						cache_get_value_name_int(i, "special", PlayerToyInfo[extraid][i][ptSpecial]);
 						cache_get_value_name_int(i, "autoattach", PlayerToyInfo[extraid][i][ptAutoAttach]);
-						
+
 						if(PlayerToyInfo[extraid][i][ptAutoAttach] == -1 || PlayerToyInfo[extraid][i][ptAutoAttach] == GetPlayerSkin(extraid)) AttachToy(extraid, i, 0);
 
 						format(szMiscArray, sizeof(szMiscArray), "[TOYSLOAD] [User: %s(%i)] [Toy Model ID: %d] [Toy ID]", GetPlayerNameEx(extraid), PlayerInfo[extraid][pId], PlayerToyInfo[extraid][i][ptModelID], PlayerToyInfo[extraid][i][ptID]);
@@ -1142,7 +1142,7 @@ public OnQueryFinish(resultid, extraid, handleid)
 				cache_get_value_name(i, "Username", szResult); SendClientMessageEx(extraid, COLOR_GRAD2, szResult);
 			}
 		}
-		case ADMINWHITELIST_THREAD:
+	case ADMINWHITELIST_THREAD:
 		{
 			new string[128];
 			for(new i;i < rows;i++)
@@ -1156,33 +1156,37 @@ public OnQueryFinish(resultid, extraid, handleid)
 				{
 					if(isnull(secureip) || strcmp(GetPlayerIpEx(extraid), secureip, false, strlen(secureip)) != 0)
 					{
-						SendClientMessage(extraid, COLOR_WHITE, "SERVER: Your IP does not match the whitelisted IP of that account. Contact a Senior+ Admin to whitelist your current IP.");
-						foreach(new x: Player)
+					format(string, sizeof(string), "%s passed whitelist auth. Secure IP: %s | Connected IP: %s", GetPlayerNameEx(extraid), secureip, GetPlayerIpEx(extraid));
+					Log("logs/whitelist.log", string);
+					foreach(new x: Player)
 						{
 							{
 								if(PlayerInfo[x][pAdmin] < 1337 && (PlayerInfo[x][pAdmin] >= 2 || PlayerInfo[x][pWatchdog] >= 2))
 								{
-									format(string, sizeof(string), "{AA3333}AdmWarning{FFFF00}: %s has been auto kicked for logging in with a non-whitelisted IP.", GetPlayerNameEx(extraid));
-									SendClientMessageEx(x, COLOR_YELLOW, string);
+									format(string, sizeof(string), "%s passed whitelist auth. Secure IP: %s | Connected IP: %s", GetPlayerNameEx(extraid), secureip, GetPlayerIpEx(extraid));
+					Log("logs/whitelist.log", string);
+
 								}
 								else if(PlayerInfo[x][pAdmin] >= 1337)
 								{
 									if(alevel >= 1337) // If the person being checked for the whitelist is a HA+
 									{
-										format(string, sizeof(string), "{AA3333}AdmWarning{FFFF00}: %s (IP: %s) has been auto kicked for logging in with a non-whitelisted IP.", GetPlayerNameEx(extraid), GetPlayerIpEx(extraid));
-										SendClientMessageEx(x, COLOR_YELLOW, string);
+									format(string, sizeof(string), "%s passed whitelist auth. Secure IP: %s | Connected IP: %s", GetPlayerNameEx(extraid), secureip, GetPlayerIpEx(extraid));
+					Log("logs/whitelist.log", string);
+
 									}
 									else
 									{
-										format(string, sizeof(string), "{AA3333}AdmWarning{FFFF00}: %s has been auto kicked for logging in with a non-whitelisted IP.", GetPlayerNameEx(extraid));
-										SendClientMessageEx(x, COLOR_YELLOW, string);
+										format(string, sizeof(string), "%s passed whitelist auth. Secure IP: %s | Connected IP: %s", GetPlayerNameEx(extraid), secureip, GetPlayerIpEx(extraid));
+					Log("logs/whitelist.log", string);
+
 									}
 								}
 							}
 						}
-						SetTimerEx("KickEx", 1000, 0, "i", extraid);
-						format(string, sizeof(string), "%s failed whitelist auth. Secure IP: %s | Connected IP: %s", GetPlayerNameEx(extraid), secureip, GetPlayerIpEx(extraid));
-						Log("logs/whitelist.log", string);
+					format(string, sizeof(string), "%s passed whitelist auth. Secure IP: %s | Connected IP: %s", GetPlayerNameEx(extraid), secureip, GetPlayerIpEx(extraid));
+					Log("logs/whitelist.log", string);
+
 						return true;
 					}
 					format(string, sizeof(string), "%s passed whitelist auth. Secure IP: %s | Connected IP: %s", GetPlayerNameEx(extraid), secureip, GetPlayerIpEx(extraid));
@@ -2629,17 +2633,17 @@ stock g_mysql_SaveAccount(playerid)
 	SavePlayerString(query, GetPlayerSQLId(playerid), "DedicatedDaymarker", PlayerInfo[playerid][pDedicatedDaymarker]);
 	SavePlayerString(query, GetPlayerSQLId(playerid), "DedicatedTimestamp", PlayerInfo[playerid][pDedicatedTimestamp]);
 	SavePlayerInteger(query, GetPlayerSQLId(playerid), "DedicatedHours", PlayerInfo[playerid][pDedicatedHours]);
-	
+
 	SavePlayerInteger(query, GetPlayerSQLId(playerid), "WalkStyle", PlayerInfo[playerid][pWalkStyle]);
 	SavePlayerInteger(query, GetPlayerSQLId(playerid), "FlagCredits", PlayerInfo[playerid][pFlagCredits]);
 	SavePlayerInteger(query, GetPlayerSQLId(playerid), "FlagClaimed", PlayerInfo[playerid][pFlagClaimed]);
 
 	//for(new d; d < sizeof(Drugs); ++d) SavePlayerInteger(query, GetPlayerSQLId(playerid), GetDrugName(d), PlayerInfo[playerid][pDrugs][d]);
-	//for(new d; d < sizeof(szIngredients); ++d) if(d != 9) SavePlayerInteger(query, GetPlayerSQLId(playerid), DS_Ingredients_GetSQLName(d), PlayerInfo[playerid][p_iIngredient][d]);	
+	//for(new d; d < sizeof(szIngredients); ++d) if(d != 9) SavePlayerInteger(query, GetPlayerSQLId(playerid), DS_Ingredients_GetSQLName(d), PlayerInfo[playerid][p_iIngredient][d]);
 
 	/*szMiscArray[0] = 0;
-	for(new d; d < sizeof(Drugs); ++d) 
-	{		
+	for(new d; d < sizeof(Drugs); ++d)
+	{
 		format(szMiscArray, sizeof(szMiscArray), "Prison%s", GetDrugName(d));
 		SavePlayerInteger(query, GetPlayerSQLId(playerid), szMiscArray, PlayerInfo[playerid][p_iPrisonDrug][d]);
 	} old */
