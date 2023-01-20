@@ -1,5 +1,11 @@
+./includes/mysql.pwn(1167) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/mysql.pwn(1175) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/mysql.pwn(1181) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/mysql.pwn(1190) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/admin/admin.pwn(51) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Discord"
 ./includes/admin/admin.pwn(1843) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/business/businesscore.pwn(2379) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/business/businesscore.pwn(2380) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/vehsystem/groupvehs.pwn(189) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/vehsystem/groupvehs.pwn(134) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "szMiscArrays14"
 ./includes/group/gangtags.pwn(135) : íåïðàâèëüíàÿ òàáóëÿöèÿ
@@ -13,18 +19,22 @@
 ./includes/core/payphones.pwn(196) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/core/payphones.pwn(187) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "fValue"
 ./includes/core/payphones.pwn(187) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "value"
-./includes/furniture.pwn(1058) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/furniture.pwn(654) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/furniture.pwn(653) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "iHouseID"
+./includes/furniture.pwn(661) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/furniture.pwn(660) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "iHouseID"
+./includes/furniture.pwn(1054) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/furniture.pwn(1076) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/furniture.pwn(1080) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/furniture.pwn(1084) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/furniture.pwn(1055) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "fValue"
-./includes/furniture.pwn(1055) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "value"
-./includes/furniture.pwn(1099) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/furniture.pwn(1119) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/furniture.pwn(1095) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "fValue"
-./includes/furniture.pwn(1095) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "value"
+./includes/furniture.pwn(1051) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "fValue"
+./includes/furniture.pwn(1051) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "value"
+./includes/furniture.pwn(1095) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/furniture.pwn(1115) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/furniture.pwn(1091) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "fValue"
+./includes/furniture.pwn(1091) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "value"
+./includes/furniture.pwn(1130) : íåïðàâèëüíàÿ òàáóëÿöèÿ
+./includes/furniture.pwn(1133) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/furniture.pwn(1134) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/furniture.pwn(1137) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/furniture.pwn(1138) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/variables.pwn(2776) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "g_AdminChannelId"
 ./includes/variables.pwn(2776) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "g_AdminWarningsChannelId"
 ./includes/variables.pwn(2776) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "g_HeadAdminChannelId"
@@ -35,7 +45,7 @@
 ./includes/core/Player_Interact.pwn(1061) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â Interact_DetainPlayer
 ./includes/group/cratesystem.pwn(193) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â UpdateCrateBox: âûçîâ ñ DestroyCrate ./includes/group/cratesystem.pwn(709)
 C:\Users\HomePC2\Documents\GitHub\NGG-V3--REFIX-\pawno\include\YSI\y_amx.inc(294) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â AMX_GetGlobal
-./includes/furniture.pwn(852) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â FurnitureMenu: âûçîâ ñ cmd_furniture ./includes/furniture.pwn(2084)
+./includes/furniture.pwn(848) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â FurnitureMenu: âûçîâ ñ cmd_furniture ./includes/furniture.pwn(2080)
 ./includes/group/callsystem.pwn(92) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â SendCallToQueue
 ./includes/admin/reportsystem.pwn(48) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â SendReportToQue
 ./includes/admin/gift.pwn(3812) : ïðåäóïðåæäåíèå: ðåêóðñèÿ â cmd_dgedit

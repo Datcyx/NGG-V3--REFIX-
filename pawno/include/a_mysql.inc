@@ -1,5 +1,5 @@
 /**
- * MySQL plugin R40
+ * MySQL plugin R41-4
  */
 
 
@@ -30,10 +30,10 @@
 enum E_LOGLEVEL
 {
 	NONE = 0,
-	ERROR = 1,
-	WARNING = 2,
-	INFO = 4,
-	DEBUG = 8,
+	DEBUG = 1,
+	INFO = 2,
+	WARNING = 4,
+	ERROR = 8,
 	
 	ALL = ERROR | WARNING | INFO | DEBUG
 };
@@ -155,9 +155,11 @@ native mysql_set_option(MySQLOpt:option_id, E_MYSQL_OPTION:type, ...);
 native mysql_pquery(MySQL:handle, const query[], const callback[] = "", const format[] = "", {Float,_}:...);
 native mysql_tquery(MySQL:handle, const query[], const callback[] = "", const format[] = "", {Float,_}:...);
 native Cache:mysql_query(MySQL:handle, const query[], bool:use_cache = true);
-native mysql_query_file(MySQL:handle, const file_path[]);
+native mysql_tquery_file(MySQL:handle, const file_path[], const callback[] = "", const format[] = "", {Float,_}:...);
+native Cache:mysql_query_file(MySQL:handle, const file_path[], bool:use_cache = false);
 
 native mysql_errno(MySQL:handle = MYSQL_DEFAULT_HANDLE);
+native mysql_error(destination[], max_len = sizeof(destination), MySQL:handle = MYSQL_DEFAULT_HANDLE);
 native mysql_escape_string(const source[], destination[], max_len = sizeof(destination), MySQL:handle = MYSQL_DEFAULT_HANDLE);
 native mysql_format(MySQL:handle, output[], max_len, const format[], {Float,_}:...);
 native mysql_set_charset(const charset[], MySQL:handle = MYSQL_DEFAULT_HANDLE);

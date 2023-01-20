@@ -651,18 +651,14 @@ timer FurnitureEditObject[5000](playerid) {
 		CancelEdit(playerid);
 		DeletePVar(playerid, "furnfirst");
 		new iHouseID = GetPVarInt(playerid, PVAR_INHOUSE);
-		Player_StreamPrep(playerid, HouseInfo[iHouseID][hInteriorX], HouseInfo[iHouseID][hInteriorY], HouseInfo[iHouseID][hInteriorZ], FREEZE_TIME);
-		SendClientMessageEx(playerid, COLOR_GRAD1, "You went too far away.");
-		return 1;
+			return 1;
 	}
 	if(fPos[5] > (fPos[2] + 2.0)) {
 
 		CancelEdit(playerid);
 		DeletePVar(playerid, "furnfirst");
 		new iHouseID = GetPVarInt(playerid, PVAR_INHOUSE);
-		Player_StreamPrep(playerid, HouseInfo[iHouseID][hInteriorX], HouseInfo[iHouseID][hInteriorY], HouseInfo[iHouseID][hInteriorZ], FREEZE_TIME);
-		SendClientMessageEx(playerid, COLOR_GRAD1, "You went too far away.");
-		return 1;
+			return 1;
 	}
 	return 1;
 }

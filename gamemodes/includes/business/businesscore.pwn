@@ -2341,7 +2341,7 @@ CMD:asellbiz(playerid, params[])
 	return 1;
 }
 
-/*CMD:sellbiz(playerid, params[])
+CMD:sellbiz(playerid, params[])
 {
     if(PlayerInfo[playerid][pBusiness] == INVALID_BUSINESS_ID )
     {
@@ -2376,7 +2376,7 @@ CMD:asellbiz(playerid, params[])
 		}
 
 		format(string, sizeof(string), "UPDATE `accounts` SET `Business` = "#INVALID_BUSINESS_ID", `BusinessRank` = 0 WHERE `Business` = '%d'", i);
-		mysql_tquery(MainPipeline, string, false, "OnQueryFinish", "i", SENDDATA_THREAD);
+				mysql_tquery(MainPipeline, string, "OnQueryFinish", "i", SENDDATA_THREAD, playerid);
 		return 1;
     }
     else
@@ -2419,7 +2419,7 @@ CMD:buybiz(playerid, params[])
 	}
 	return SendClientMessageEx(playerid, COLOR_WHITE, "You're not near a business!");
 }
-*/
+
 
 CMD:creategaspump(playerid, params[])
 {
