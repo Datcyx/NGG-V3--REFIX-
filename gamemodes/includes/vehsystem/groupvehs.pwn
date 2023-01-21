@@ -55,6 +55,7 @@ public DynVeh_QueryFinish(iType, iExtraID) {
 				cache_get_value_name_float(iIndex, "vRotZ", DynVehicleInfo[sqlid][gv_fRotZ]);
 				cache_get_value_name_int(iIndex, "vUpkeep", DynVehicleInfo[sqlid][gv_iUpkeep]);
 				cache_get_value_name_int(iIndex, "vSiren", DynVehicleInfo[sqlid][gv_iSiren]);
+				DynVeh_Spawn(iIndex);
 				i = 1;
 				while(i <= MAX_DV_OBJECTS) {
 					format(szResult, sizeof szResult, "vAttachedObjectModel%i", i);
@@ -118,20 +119,7 @@ DynVeh_Save(iDvSlotID) {
 		return 0;
 
 	szMiscArray[0] = 0;
-    new szMiscArrays1[5000];
-    new szMiscArrays2[5000];
-    new szMiscArrays3[5000];
-    new szMiscArrays4[5000];
-    new szMiscArrays5[5000];
-    new szMiscArrays6[5000];
-    new szMiscArrays7[5000];
-    new szMiscArrays8[5000];
-    new szMiscArrays9[5000];
-    new szMiscArrays10[5000];
-    new szMiscArrays11[5000];
-    new szMiscArrays12[5000];
-    new szMiscArrays13[5000];
-    new szMiscArrays14[5000];
+
 	new
 		i = 0;
 
@@ -139,54 +127,32 @@ DynVeh_Save(iDvSlotID) {
 		"UPDATE `groupvehs` SET `SpawnedID`= '%d',`gID`= '%d',`gDivID`= '%d', `rID`='%d', `vModel`= '%d', \
 		`vPlate` = '%e',`vMaxHealth`= '%.2f',`vType`= '%d',`vLoadMax`= '%d',`vCol1`= '%d',`vCol2`= '%d', \
 		`vX`= '%.2f',`vY`= '%.2f',`vZ`= '%.2f',`vRotZ`= '%.2f', `vUpkeep` = '%d', `vVW` = '%d', `vDisabled` = '%d', \
-		`vInt` = '%d', `vFuel` = '%.5f', `vSiren` = '%d'  WHERE `id` = %i", DynVehicleInfo[iDvSlotID][gv_iSpawnedID], DynVehicleInfo[iDvSlotID][gv_igID], DynVehicleInfo[iDvSlotID][gv_igDivID], DynVehicleInfo[iDvSlotID][gv_irID], DynVehicleInfo[iDvSlotID][gv_iModel],
+		`vInt` = '%d', `vFuel` = '%.5f', `vSiren` = '%d'"
+		, DynVehicleInfo[iDvSlotID][gv_iSpawnedID], DynVehicleInfo[iDvSlotID][gv_igID], DynVehicleInfo[iDvSlotID][gv_igDivID], DynVehicleInfo[iDvSlotID][gv_irID], DynVehicleInfo[iDvSlotID][gv_iModel],
 		DynVehicleInfo[iDvSlotID][gv_iPlate], DynVehicleInfo[iDvSlotID][gv_fMaxHealth], DynVehicleInfo[iDvSlotID][gv_iType], DynVehicleInfo[iDvSlotID][gv_iLoadMax], DynVehicleInfo[iDvSlotID][gv_iCol1], DynVehicleInfo[iDvSlotID][gv_iCol2],
 		DynVehicleInfo[iDvSlotID][gv_fX], DynVehicleInfo[iDvSlotID][gv_fY], DynVehicleInfo[iDvSlotID][gv_fZ], DynVehicleInfo[iDvSlotID][gv_fRotZ], DynVehicleInfo[iDvSlotID][gv_iUpkeep], DynVehicleInfo[iDvSlotID][gv_iVW], DynVehicleInfo[iDvSlotID][gv_iDisabled],
-		DynVehicleInfo[iDvSlotID][gv_iInt], DynVehicleInfo[iDvSlotID][gv_fFuel], DynVehicleInfo[iDvSlotID][gv_iSiren],iDvSlotID);
+		DynVehicleInfo[iDvSlotID][gv_iInt], DynVehicleInfo[iDvSlotID][gv_fFuel], DynVehicleInfo[iDvSlotID][gv_iSiren]);
 
 	for(i = 0; i != MAX_DV_OBJECTS; ++i) {
-		mysql_format(MainPipeline, szMiscArrays1, sizeof szMiscArrays1, "UPDATE `groupvehs` SET `vAttachedObjectModel%i` = '%d' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_iAttachedObjectModel],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays1, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays2, sizeof szMiscArrays2, "UPDATE `groupvehs` SET `vObjectX%i` = '%.2f' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectX],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays2, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays3, sizeof szMiscArrays3, "UPDATE `groupvehs` SET `vObjectY%i` = '%.2f' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectY],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays3, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays4, sizeof szMiscArrays4, "UPDATE `groupvehs` SET `vObjectZ%i` = '%.2f' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectZ],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays4, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays5, sizeof szMiscArrays5, "UPDATE `groupvehs` SET `vObjectRX%i` = '%.2f' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectRX],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays5, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays6, sizeof szMiscArrays6, "UPDATE `groupvehs` SET `vObjectRY%i` = '%.2f' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectRY],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays6, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays7, sizeof szMiscArrays7, "UPDATE `groupvehs` SET `vObjectRZ%i` = '%.2f' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectRZ],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays7, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays8, sizeof szMiscArrays8, "UPDATE `groupvehs` SET `vObjectText%i` = '%e' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectText],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays8, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays9, sizeof szMiscArrays9, "UPDATE `groupvehs` SET `vObjectMatSize%i` = '%d' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectMatSize],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays9, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays10, sizeof szMiscArrays10, "UPDATE `groupvehs` SET `vObjectFont%i` = '%s' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectFont],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays10, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays11, sizeof szMiscArrays11, "UPDATE `groupvehs` SET `vObjectSize%i` = '%d' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectSize],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays11, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays12, sizeof szMiscArrays12, "UPDATE `groupvehs` SET `vObjectColor%i` = '%i' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectColor],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays12, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-		
-		mysql_format(MainPipeline, szMiscArrays13, sizeof szMiscArrays13, "UPDATE `groupvehs` SET `vObjectBGColor%i` = '%i' WHERE `id` = %i", i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectBGColor],iDvSlotID);
-		mysql_tquery(MainPipeline, szMiscArrays13, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vAttachedObjectModel%i` = '%d'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_iAttachedObjectModel]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectX%i` = '%.2f'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectX]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectY%i` = '%.2f'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectY]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectZ%i` = '%.2f'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectZ]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectRX%i` = '%.2f'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectRX]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectRY%i` = '%.2f'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectRY]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectRZ%i` = '%.2f'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectRZ]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectText%i` = '%e'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectText]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectMatSize%i` = '%d'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectMatSize]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectFont%i` = '%s'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectFont]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectSize%i` = '%d'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectSize]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectColor%i` = '%i'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectColor]);
+		mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vObjectBGColor%i` = '%i'", szMiscArray, i+1, DynVehicleObjInfo[iDvSlotID][i][gv_fObjectBGColor]);
 	}
 
-	for(i = 0; i != MAX_DV_MODS; ++i) mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "UPDATE `groupvehs` SET `vMod%d` = %i WHERE `id` = %i", i, DynVehicleInfo[iDvSlotID][gv_iMod][i],iDvSlotID); mysql_tquery(MainPipeline, szMiscArray, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
-return 1;
+	for(i = 0; i != MAX_DV_MODS; ++i) mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s, `vMod%d` = %i", szMiscArray, i, DynVehicleInfo[iDvSlotID][gv_iMod][i]);
+
+	mysql_format(MainPipeline, szMiscArray, sizeof szMiscArray, "%s WHERE `id` = %i", szMiscArray, iDvSlotID);
+	return mysql_tquery(MainPipeline, szMiscArray, "OnQueryFinish", "ii", SENDDATA_THREAD, INVALID_PLAYER_ID);
 }
 
 stock DynVeh_Spawn(iDvSlotID, free = 0)
@@ -195,6 +161,7 @@ stock DynVeh_Spawn(iDvSlotID, free = 0)
 
 	format(szMiscArray, sizeof(szMiscArray), "Attempting to spawn DV Slot ID %d", iDvSlotID);
 	Log("logs/dvspawn.log", szMiscArray);
+
 	new tmpdv = INVALID_VEHICLE_ID;
 	if(DynVehicleInfo[iDvSlotID][gv_iSpawnedID] != INVALID_VEHICLE_ID)
 	{
@@ -246,6 +213,8 @@ stock DynVeh_Spawn(iDvSlotID, free = 0)
 	DynVeh_Save(iDvSlotID);
 	format(szMiscArray, sizeof(szMiscArray), "Vehicle ID %d spawned for DV Slot %d",DynVehicleInfo[iDvSlotID][gv_iSpawnedID], iDvSlotID);
 	Log("logs/dvspawn.log", szMiscArray);
+
+
 	SetVehicleHealth(DynVehicleInfo[iDvSlotID][gv_iSpawnedID], DynVehicleInfo[iDvSlotID][gv_fMaxHealth]);
 	SetVehicleVirtualWorld(DynVehicleInfo[iDvSlotID][gv_iSpawnedID], DynVehicleInfo[iDvSlotID][gv_iVW]);
 	LinkVehicleToInterior(DynVehicleInfo[iDvSlotID][gv_iSpawnedID], DynVehicleInfo[iDvSlotID][gv_iInt]);
@@ -257,7 +226,7 @@ stock DynVeh_Spawn(iDvSlotID, free = 0)
 		if(DynVehicleObjInfo[iDvSlotID][i][gv_iAttachedObjectModel] != INVALID_OBJECT_ID && DynVehicleObjInfo[iDvSlotID][i][gv_iAttachedObjectModel] != 0)
 		{
 			DynVehicleObjInfo[iDvSlotID][i][gv_iAttachedObjectID] = CreateDynamicObject(DynVehicleObjInfo[iDvSlotID][i][gv_iAttachedObjectModel],0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
-			
+
 			if(IsABlankTexture(DynVehicleObjInfo[iDvSlotID][i][gv_iAttachedObjectModel]) && !isnull(DynVehicleObjInfo[iDvSlotID][i][gv_fObjectText]))
 			{
 				if(DynVehicleObjInfo[iDvSlotID][i][gv_fObjectMatSize] == 0) DynVehicleObjInfo[iDvSlotID][i][gv_fObjectMatSize] = 90;

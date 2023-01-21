@@ -6,8 +6,6 @@
 ./includes/admin/admin.pwn(1843) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/business/businesscore.pwn(2379) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/business/businesscore.pwn(2380) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/vehsystem/groupvehs.pwn(189) : íåïðàâèëüíàÿ òàáóëÿöèÿ
-./includes/vehsystem/groupvehs.pwn(134) : èäåíòèôèêàòîðó ïðèñâîåíî çíà÷åíèå, íî îí íå èñïîëüçóåòñÿ: "szMiscArrays14"
 ./includes/group/gangtags.pwn(135) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/group/gangtags.pwn(136) : íåïðàâèëüíàÿ òàáóëÿöèÿ
 ./includes/group/gangtags.pwn(144) : íåïðàâèëüíàÿ òàáóëÿöèÿ

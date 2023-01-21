@@ -118,7 +118,7 @@ InitiateGamemode()
 	//LoadFurniture(); Not needed - furniture loads when the player enters the house.
 	FurnitureListInit();
     //Poll_LoadPolls();
-
+   	
 	print("\n-------------------------------------------");
 	print("Next Generation Roleplay\n");
 	print("Copyright (C) Next Generation Gaming, LLC (2010-2014)");

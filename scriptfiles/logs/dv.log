@@ -2409,3 +2409,19 @@
 [2022/12/21 - 19:05:32] Test Characterxxaaa's DV Creation query has returned - attempting to spawn vehicle - SQL ID 399
 [2022/12/21 - 19:05:54] Test Characterxxaaa has created a dynamic vehicle.
 [2022/12/21 - 19:05:54] Test Characterxxaaa's DV Creation query has returned - attempting to spawn vehicle - SQL ID 406
+[2023/1/22 - 2:41:27] Test Character has created a dynamic vehicle.
+[2023/1/22 - 2:41:27] Test Character's DV Creation query has returned - attempting to spawn vehicle - SQL ID 398
+[2023/1/22 - 2:41:53] Test Character has edited DV Slot 398 - 448 groupid 1.
+[2023/1/22 - 2:42:05] Test Character has edited DV Slot 398 - 448 groupid 2.
+[2023/1/22 - 2:43:41] Test Character has created a dynamic vehicle.
+[2023/1/22 - 2:43:41] Test Character's DV Creation query has returned - attempting to spawn vehicle - SQL ID 398
+[2023/1/22 - 2:44:18] Test Character has edited DV Slot 344 - 405 groupid 2.
+[2023/1/22 - 2:44:27] Test Character has edited DV Slot 344 - 405 groupid 4.
+[2023/1/22 - 2:44:41] Test Character has edited DV Slot 398 - 450 groupid 6.
+[2023/1/22 - 3:00:46] Test Character has created a dynamic vehicle.
+[2023/1/22 - 3:00:46] Test Character's DV Creation query has returned - attempting to spawn vehicle - SQL ID 398
+[2023/1/22 - 3:04:19] Test Character has created a dynamic vehicle.
+[2023/1/22 - 3:04:19] Test Character's DV Creation query has returned - attempting to spawn vehicle - SQL ID 398
+[2023/1/22 - 3:20:14] Test Character has created a dynamic vehicle.
+[2023/1/22 - 3:20:14] Test Character's DV Creation query has returned - attempting to spawn vehicle - SQL ID 398
+[2023/1/22 - 3:21:01] Test Character has edited DV Slot 398 - 450 groupid 3.
